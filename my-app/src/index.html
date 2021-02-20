@@ -1,13 +1,33 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>MyApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
-</html>
+<div class="container">
+
+    <div class="st-container">
+
+        <input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+        <a href="#st-panel-1">Home</a>
+        <input type="radio" name="radio-set" id="st-control-2" />
+        <a href="#st-panel-2">Settings</a>
+        <input type="radio" name="radio-set" id="st-control-3" />
+
+        <div class="st-scroll">
+
+            <!-- Placeholder text from http://hipsteripsum.me/ -->
+
+            <section class="st-panel" id="st-panel-1">
+                <div class="st-deco" data-icon="&#xf069;"></div>
+                <h2>Home</h2>
+                <p>In this Page we show a home</p>
+            </section>
+
+            <section class="st-panel st-color" id="st-panel-2">
+                <div class="st-deco" data-icon="&#xf118;"></div>
+                <h2>Settings</h2>
+                <p>In this Page we see all of Settings</p>
+            </section>
+
+        </div>
+        <!-- // st-scroll -->
+
+    </div>
+    <!-- // st-container -->
+
+</div>
